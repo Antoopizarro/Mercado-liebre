@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --colorAmarillo:#EAC926;
+    --colorAzul: #03264C;
+    --colorCeleste: #1259c3;
+    --colorGrisOscuro: #666;
+    --colorGrisClaro: #ebebeb;
+    --colorVerde: #39b54a;
+    --tipografia : 'Roboto';
+    --cuerpoDeTexto: 12px;
+    --tamañoTitulares: 24px;
+    --tamañoPrecios: 18px;
+    --tamañoDescuentosDescripciones: 16px;
+}
+
+
+/* MOBILE */
+@media(max-width: 350px){
+    .descripcion{
+        display: none;
+    }
+    ul{
+        display: none;
+    }
+}
+/* TABLET */
+@media (min-width: 768px){
+    article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    
+    .burger-menu {
+        display: none;
+    }
+}
+/* DESKTOP */
+@media (min-width: 1024px){
+    article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    
+    .burger-menu {
+        display: none;
+    }
+}

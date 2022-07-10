@@ -1,66 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;900&display=swap');
+@import './general.css';
+@import './home.css';
 
-:root{
-    --colorAmarillo:#EAC926;
-    --colorAzul: #03264C;
-    --colorCeleste: #1259c3;
-    --colorGrisOscuro: #666;
-    --colorGrisClaro: #ebebeb;
-    --colorVerde: #39b54a;
-    --tipografia : 'Roboto';
-    --cuerpoDeTexto: 12px;
-    --tamañoTitulares: 24px;
-    --tamañoPrecios: 18px;
-    --tamañoDescuentosDescripciones: 16px;
-}
-*{
-    box-sizing: border-box;
-}
-body{
-    font-family: var(--tipografia);
-    font-size: small;
-}
-main{
-    text-align: center;
-}
-footer{
-    text-align: center;
-}
-.body__header--buscar{
-    text-align: center;
-}
-ul, li{
-    list-style: none;
-    padding: 0;
-    margin-bottom: 7px;
-}
-.compra{
-    text-align: center;
-}
-.burger-menu{
-    color : var(--colorGrisClaro);
-    background-color: var(--colorCeleste);
-    margin-left: 45%;
-    text-align: center;
-    width: 7%;
-    padding: 5px;
-    border-radius: 20%;
-}
-header{
-    background-color: var(--colorAmarillo)
-}
-h3{
-    font-size: var(--tamañoTitulares);
-}
-.precio{
-    font-size: var(--tamañoPrecios);
-}
-.descuento .descripcion{
-    font-size: var(--tamañoDescuentosDescripciones);
-}
-.footer_section--icono{
-    font-size: 2em;
-    margin-bottom: 10px;
-    color: #1259c3;
-}
+
+
 

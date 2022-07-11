@@ -78,6 +78,9 @@ h3{
     font-size: small;
 
 }
+.copyright{
+    text-align: left;
+}
 .footer_section--icono{
     font-size: 2em;
     margin-bottom: 10px;

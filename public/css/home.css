@@ -15,6 +15,9 @@ body{
     margin-top: 0;
     
 }
+.compra{
+    text-align: center;
+}
 .detalle{
     border-top: 1px solid #ebebeb;
     padding: 15px;
@@ -41,10 +44,6 @@ ul, li{
     margin-bottom: 7px;
 }
 
-
-.compra{
-    text-align: center;
-}
 .burger-menu{
     color : var(--colorGrisClaro);
     background-color: var(--colorCeleste);
@@ -64,19 +63,27 @@ h3{
 .precio{
     font-size: var(--tamañoPrecios);
 }
-.descuento .descripcion{
-    font-size: var(--tamañoDescuentosDescripciones);
-}
 .descuento{
+    font-size: var(--tamañoDescuentosDescripciones);
     color: var(--colorVerde);
+}
+.descripcion{
+    font-size: var(--tamañoDescuentosDescripciones);
+    position: relative;
 }
 .fa-truck {
-    border: 1px solid var(--colorVerde);
-    border-radius: 50%;
     color: var(--colorVerde);
-    padding: 5%;
-    font-size: small;
-
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
 }
 .copyright{
     text-align: left;

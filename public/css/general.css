@@ -18,32 +18,3 @@
 }
 
 
-/* MOBILE */
-@media(max-width: 350px){
-    .descripcion{
-        display: none;
-    }
-    ul{
-        display: none;
-    }
-}
-/* TABLET */
-@media (min-width: 768px){
-    article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
-    
-    .burger-menu {
-        display: none;
-    }
-}
-/* DESKTOP */
-@media (min-width: 1024px){
-    article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
-    
-    .burger-menu {
-        display: none;
-    }
-}

@@ -1,0 +1,42 @@
+.Volver{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+h2{
+    text-align: left;
+}
+.input_datos{
+    border: none;
+    height: 30px;
+    width: 90%;
+}
+.input_fecha{
+    border: none;
+    height: 30px;
+    width: 90%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.form_perfil{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    gap: 50px;
+}
+
+
+.form_intereses{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px;
+}
+

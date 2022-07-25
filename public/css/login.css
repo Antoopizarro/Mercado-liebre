@@ -1,0 +1,19 @@
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.input_usuario{
+    border: none;
+    height: 30px ;
+    width: 100%;
+    margin-top: 15px;
+}
+.form_button{
+    color: white;
+    background-color: var(--colorCeleste);
+    height: 30px ;
+    width: 100%;
+    border: none;
+    margin-top: 15px;
+}

@@ -32,6 +32,9 @@ header{
     flex-direction: column;
     flex-grow: 1;
 }
+header input{
+    border: none;
+}
 /*.img{
     padding-top: 10px;
 }*/

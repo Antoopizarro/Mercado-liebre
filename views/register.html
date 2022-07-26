@@ -7,12 +7,14 @@
     <title>Registro</title>
     <script src="https://kit.fontawesome.com/47f954a9fa.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/css/styles.css">
+    <style>
+        a { text-decoration: none; 
+            color: black;} 
+        </style>
 </head>
 <body>
-    <header>
-    </header>
     <main>
-        <a href="/"><h4 class="Volver">Volver al Inicio</h4></a>
+        
         <form action="" class="form1">
             <input class="input_datos" type="text" name="name" placeholder="Nombre y Apellido">
             <input class="input_datos" type="text" name="name" placeholder="Nombre de usuario">
@@ -33,6 +35,18 @@
                 <label for="Jugueteria"><input type="checkbox" name="intereses">Jugueteria</label>
                 <label for="Vida Sana"><input type="checkbox" name="intereses">Vida Sana</label>
               </div>
+              <h2>Foto de perfil</h2>
+              <div class="form_file">
+                    <input type="file" name="file">
+              </div>
+              <div class="form_contraseña">
+                  <input class="input_contra" type="password" name="password" placeholder="Contraseña">
+                  <input class="input_contra" type="password" name="password2" placeholder="Repetir contraseña">
+              </div>
+             <div class="form_register--button">
+                 <button class="button_enviar" type="submit"><a href="/" >Enviar</a></button>
+                 <button class="button_eliminar" type="reset">Eliminar</button>
+             </div>
         </form>
     </main>
     <footer></footer>

@@ -16,6 +16,23 @@ body{
 header{
     background-color: var(--colorAmarillo);
 }
+.header--buscar form{
+    display: flex;
+    height: 32px;
+    background-color: #FFF;
+    margin: 5px;
+}
+.header--buscar input{
+    border: none;
+    width: 85%;
+    outline: none;
+}
+.header--buscar button{
+    width: 15%;
+    border: none;
+    background-color: #FFF;
+    color: var(--colorGrisOscuro);
+}
 
 .encabezado{
     display: flex;

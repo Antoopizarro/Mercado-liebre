@@ -1,8 +1,4 @@
-.Volver{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-}
+
 h2{
     text-align: left;
 }
@@ -12,6 +8,11 @@ h2{
     width: 90%;
 }
 .input_fecha{
+    border: none;
+    height: 30px;
+    width: 90%;
+}
+.input_contra{
     border: none;
     height: 30px;
     width: 90%;
@@ -39,4 +40,41 @@ h2{
     align-items: flex-start;
     gap: 15px;
 }
+.form_file{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 5%;
+}
 
+.form_contraseña{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.form_register--button{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+button{
+    width: 30%;
+    height: 30px;
+}
+.button_enviar{
+    color: white;
+    background-color: var(--colorCeleste);
+    border: none;
+    border-radius: 5%;
+}
+.button_eliminar{
+    color: white;
+    background-color: gray ;
+    border: none;
+    border-radius: 10%;
+}

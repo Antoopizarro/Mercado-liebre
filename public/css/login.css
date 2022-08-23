@@ -17,3 +17,7 @@
     border: none;
     margin-top: 15px;
 }
+
+.form_button:hover {
+    background-color: #0022AA;
+}
